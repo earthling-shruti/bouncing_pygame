@@ -38,7 +38,7 @@ pygame.display.set_caption("bouncing balls")
 balls = [Ball() for i in range(20)]
 
 done = False
-while done == False :
+while not done :
   clock.tick(100)
 
   for event in pygame.event.get():
