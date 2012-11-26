@@ -1,3 +1,7 @@
+import pygame
+import random
+import time
+
 class Ball():
 
   def __init__(self):
@@ -21,10 +25,6 @@ class Ball():
 
   def draw(self, screen):
     pygame.draw.circle(screen, self.color, [int(self.x), int(self.y)], self.size)
-
-import pygame
-import random
-import time
 
 pygame.init()
 white = [255, 255, 255]
