@@ -29,7 +29,7 @@ class Ball():
 pygame.init()
 white = [255, 255, 255]
 black = [0, 0, 0]
-size = [600,700]
+size = [600, 500]
 clock = pygame.time.Clock()
 
 screen = pygame.display.set_mode(size)
