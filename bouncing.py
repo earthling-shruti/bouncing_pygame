@@ -1,3 +1,4 @@
+#A simple game
 import pygame
 import random
 import time
